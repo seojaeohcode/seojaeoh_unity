@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour
     
     public void gameretry()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("SampleScene");
     }
     public void Quit()
     {
